@@ -15,3 +15,70 @@ body {
   justify-content: center;
   font-size: 1.6rem;
 }
+
+.cotainer {
+  width: 40rem;
+  height: 45rem;
+  border: 1px solid #777;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: -1px -1px 0px #fff2eb, 1px 1px 0px #2a4759;
+  background-color: transparent;
+}
+.calc_screen {
+  width: 100%;
+  height: 10rem;
+  background: #f2f2f2;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.screen_input {
+  width: 100%;
+  height: 100%;
+  font-size: 5rem;
+  font-weight: 600;
+  caret-color: red;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #f2f2f2;
+}
+.calc_btns {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: transparent;
+  gap: 1rem;
+}
+.calc_btns .calc_btn {
+  width: 100%;
+  height: 5.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  box-shadow: -1px -1px 0px #fff2eb, 1px 1px 0px #2a4759;
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+.calc_btns .calc_btn:hover {
+  background-color: #e0e0e0;
+  transition: background-color 0.3s ease;
+  color: #1c1c1c;
+}
+.btn_equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: #4caf50 !important;
+}
+.btn-clear {
+  background-color: crimson !important;
+  color: white;
+}
