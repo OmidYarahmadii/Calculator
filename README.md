@@ -1,7 +1,7 @@
 # 🧮 Calculator | ماشین حساب
 
 A simple calculator with HTML, CSS & JS.  
-ماشین‌ حساب ساده با HTML، CSS و JS.
+ماشین‌ حساب ساده با HTML، CSS و JS
 
 ---
 
@@ -20,7 +20,4 @@ A simple calculator with HTML, CSS & JS.
 1. Clone/download repo  
 2. Open `index.html` in browser
 
----
-
-## 📁 Files | فایل‌ها
 
