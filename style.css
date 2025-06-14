@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 62.5%;
+}
+body { 
+  background-color: #1c1c1c;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 40rem;
+  height: 45rem;
+  border: 1px solid #777;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: -1px -1px 0px #fff2eb, 1px 1px 0px #2a4759;
+  background-color: transparent;
+}
+.calc_screen {
+  width: 100%;
+  height: 10rem;
+  background: #f2f2f2;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.screen_input {
+  width: 100%;
+  height: 100%;
+  font-size: 5rem;
+  font-weight: 600;
+  caret-color: red;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #f2f2f2;
+}
+.calc_btns {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: transparent;
+  gap: 1rem;
+}
+.calc_btns .calc_btn {
+  width: 100%;
+  height: 5.5rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  box-shadow: -1px -1px 0px #fff2eb, 1px 1px 0px #2a4759;
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+.calc_btns .calc_btn:hover {
+  background-color: #e0e0e0;
+  transition: background-color 0.3s ease;
+  color: #1c1c1c;
+}
+.btn_equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: #4caf50 !important;
+}
+.btn-clear {
+  background-color: crimson !important;
+  color: white;
+}
